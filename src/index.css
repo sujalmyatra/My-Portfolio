@@ -1,0 +1,17 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* Make sure root elements fill the full height */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #EAEFEF;
+}
+
+/* Remove center alignment from #root */
+#root {
+  text-align: left;
+  padding: 0;
+}
